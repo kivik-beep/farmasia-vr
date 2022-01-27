@@ -7,10 +7,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4465978048058480553, guid: 410e049512342ee4791a8d8e3b2b0da7,
+    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
         type: 3}
-      propertyPath: m_Name
-      value: membrane_filtration_pump
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
         type: 3}
@@ -29,6 +44,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -40,16 +60,6 @@ PrefabInstance:
     - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
@@ -67,20 +77,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
+    - target: {fileID: 2223204501827473918, guid: 410e049512342ee4791a8d8e3b2b0da7,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: edfd5c30f7d874d409fa3d1ba72e57b7, type: 2}
+    - target: {fileID: 3148375954897728443, guid: 410e049512342ee4791a8d8e3b2b0da7,
         type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 837966981178140090, guid: 410e049512342ee4791a8d8e3b2b0da7,
+    - target: {fileID: 3441949690366001412, guid: 410e049512342ee4791a8d8e3b2b0da7,
         type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 206fcafbf2e62344696ae99b4b37edd0, type: 2}
+    - target: {fileID: 3441949690366001412, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: edfd5c30f7d874d409fa3d1ba72e57b7, type: 2}
+    - target: {fileID: 3441949690366001412, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 16fc6cb07b4944344a1ee8da6d732916, type: 2}
+    - target: {fileID: 4465978048058480553, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_Name
+      value: membrane_filtration_pump
       objectReference: {fileID: 0}
+    - target: {fileID: 6373342840922846030, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ad2a19ceba701cb4aa2d34164dd4d4f3, type: 2}
+    - target: {fileID: 8749891956194391289, guid: 410e049512342ee4791a8d8e3b2b0da7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ad2a19ceba701cb4aa2d34164dd4d4f3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 410e049512342ee4791a8d8e3b2b0da7, type: 3}

@@ -41,6 +41,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f85ee1e9f34a254f98e52ff27f645e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsInteracting: 0
+  disableHighlighting: 0
+  isClean: 1
   capHeadTrigger: {fileID: 3718447082466866685}
 --- !u!1 &3718447082466866685
 GameObject:
@@ -97,6 +100,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -146,6 +150,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe_cap
       objectReference: {fileID: 0}
+    - target: {fileID: 1218061779154530557, guid: 9878c3441aef89047a37613159d6a767,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 999423668f5a31c48882c0fdb1cd176a, type: 2}
+    - target: {fileID: 1233975912360970376, guid: 9878c3441aef89047a37613159d6a767,
+        type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503849664645740082, guid: 9878c3441aef89047a37613159d6a767,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4503849664645740082, guid: 9878c3441aef89047a37613159d6a767,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -160,6 +179,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 1.8591595
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503849664645740082, guid: 9878c3441aef89047a37613159d6a767,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4503849664645740082, guid: 9878c3441aef89047a37613159d6a767,
         type: 3}
@@ -178,16 +202,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4503849664645740082, guid: 9878c3441aef89047a37613159d6a767,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503849664645740082, guid: 9878c3441aef89047a37613159d6a767,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4503849664645740082, guid: 9878c3441aef89047a37613159d6a767,
-        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -200,11 +214,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1233975912360970376, guid: 9878c3441aef89047a37613159d6a767,
-        type: 3}
-      propertyPath: trigger
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9878c3441aef89047a37613159d6a767, type: 3}
